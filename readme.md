@@ -5,8 +5,21 @@ Or perhaps you just want to remove someone's face in an old group picture for wh
 This very easy to use program let's you get rid of non-desired faces across any image!
 
 ## Dependencies:
-[WIP]
+* Python - 3.10.5
+* OpenCV - 4.6.0
+* Numpy - 1.22.4
+* Streamlit - 1.10.0
 ## How to use:
-[WIP]
+To run the Streamlit app locally, just go to *src/streamlit* inside this workspace and type:
+
+```console
+    $ streamlit run ImageFilterApp.py
+```
+
+![alt text](https://github.com/Josgonmar/Selective-face-blur/blob/master/visuals/demo.jpg?raw=true)
+
+A new tab will be opened in your favourite web browser where you have to upload a picture.
+Once it's uploaded, modify both the face detector threshold and the blur factor to get the desired results.
+Finally select which face(s) you'd like to apply the blur, and download the final image!
 ## License:
 Feel free to use this programa whatever you like!
