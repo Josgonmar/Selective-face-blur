@@ -16,7 +16,7 @@ To run the Streamlit app locally, just go to *src/streamlit* inside this workspa
     $ streamlit run ImageFilterApp.py
 ```
 
-![alt text](https://github.com/Josgonmar/Selective-face-blur/blob/master/visuals/demo.jpg?raw=true)
+![alt text](https://github.com/Josgonmar/Selective-face-blur/blob/master/visuals/interface.jpg?raw=true)
 
 A new tab will be opened in your favourite web browser where you have to upload a picture.
 Once it's uploaded, modify both the face detector threshold and the blur factor to get the desired results.
