@@ -5,12 +5,12 @@ Or perhaps you just want to remove someone's face in an old group picture for wh
 This very easy to use program let's you get rid of non-desired faces across any image!
 
 ## Dependencies:
-* Python - 3.10.5
-* OpenCV - 4.6.0
-* Numpy - 1.22.4
-* Streamlit - 1.10.0
+* [Python](https://www.python.org/doc/) - 3.10.5
+* [OpenCV](https://docs.opencv.org/4.6.0/) - 4.6.0
+* [Numpy](https://numpy.org/doc/stable/) - 1.22.4
+* [Streamlit](https://docs.streamlit.io/library/get-started) - 1.10.0 (Only required to run the streamlit app version)
 ## How to use:
-To run the Streamlit app locally, just go to *src/streamlit* inside this workspace and type:
+To run the Streamlit app locally, just go to *../src/streamlit* inside this workspace and type:
 
 ```console
     $ streamlit run ImageFilterApp.py
